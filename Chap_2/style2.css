@@ -1,0 +1,11 @@
+body
+{
+    background-image: url("images/maison.jpg");
+}
+
+p
+{
+    background-color: black;
+    color: white;
+    opacity: 0.3;
+}
