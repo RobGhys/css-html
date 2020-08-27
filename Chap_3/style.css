@@ -1,0 +1,22 @@
+#conteneur
+{
+    display: flex; /* Applique la propriété flex au conteneur */
+    flex-direction: column; /* Place les blocs en colonnes*/
+    /* flex-direction: column-reverse; /* Ici on place les blocs en colonnes, en sens inverse ! */
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    height: 350px;
+    align-items: center;
+
+}
+
+.element
+{
+    margin: auto;
+}
+
+.element:nth-child(2) /* On prend le deuxième bloc élément */
+{
+    background-color: blue;
+    align-self: flex-end; /* Seul ce bloc sera aligné à la fin */
+}

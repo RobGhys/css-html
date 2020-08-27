@@ -1,0 +1,36 @@
+/* Feuille de style */
+
+#topsection {
+    display:flex;
+}
+  
+ul {
+    list-style-type: none; /* Retire les bulles noires devant chaque élément de la liste */
+}
+  
+p {
+    width: 80%;
+    text-align: justify;
+    margin-left:auto; /* permet de centrer */ 
+    margin-right:auto;
+}
+  
+a
+{
+    display: block;
+}
+
+nav
+{
+    display: inline-block;
+    width: 150px;
+    border: 1px solid black;
+    vertical-align: top;
+}
+
+section
+{
+    display: inline-block;    
+    border: 1px solid blue;
+    vertical-align: top;
+}
