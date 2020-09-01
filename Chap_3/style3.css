@@ -22,13 +22,15 @@ a
 
 nav
 {
-    float : left;
+    display: inline-block;
     width: 150px;
     border: 1px solid black;
+    vertical-align:top;
 }
 
 section
 {
-    margin-left: 170px;
+    display: inline-block;
     border: 1px solid blue;
+    vertical-align: top;
 }
